@@ -5,3 +5,38 @@ body {
 
 /* Index page Photo Gallery */
 
+.grid-layout {
+display: grid;
+row-gap: 25px;
+}
+
+.banana-bread {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+    padding: 50px;
+    top:175px;
+    position: absolute;
+}
+
+.french-toast {
+
+    height: 350px; /* height of container*/
+    width: 350px; /* width of container*/
+    margin: 25px;
+    object-fit: cover;
+    padding: 50px;
+    top: 175px;
+    left: 450px;
+    position: absolute;
+}
+
+.pork-chops {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+    padding: 50px;
+    top: 175px;
+    left: 900px;
+    position: absolute;
+}
