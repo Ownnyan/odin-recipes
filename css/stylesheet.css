@@ -3,6 +3,10 @@ body {
     background-color: #df823f;
 }
 
+.recipes {
+    background-image: url(../img/background2.jpg);
+    background-color: antiquewhite;
+}
 /* Index page Photo Gallery */
 
 .grid-layout {
