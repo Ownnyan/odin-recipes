@@ -1,7 +1,9 @@
+
+/*Homepage background*/
+
 body {
     display: block;
     background-image:  url("../img/background.jpg");
-    background-color: #df823f;
     background-size: auto;
     margin: auto;
 }
@@ -9,8 +11,8 @@ body {
 /* Index page Photo Gallery */
 
 .banana-bread {
-    height: 350px;
-    width: 350px;
+    height: 350px; /* Height of Container*/
+    width: 350px; /* Width of Container*/
     margin: 25px;
     padding: 50px;
     top:175px;
@@ -30,11 +32,113 @@ body {
 }
 
 .pork-chops {
-    height: 350px;
-    width: 350px;
+    height: 350px; /* Height of Container*/
+    width: 350px; /* Width of Container*/
     margin: 25px;
     padding: 50px;
     top: 175px;
     left: 900px;
     position: absolute;
+}
+/* Index formatting ends -> Recipe Format begins */
+/*Finished Recipe image*/
+.finished-img .fin-photo {
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    top: 215px;
+    left: 100px;
+    border: 5px solid tan;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.time-servings {
+        /*Direction Text*/
+    font-family: copperplate;
+    font-size: 20px;
+    color: white;
+    line-height: 2.1;
+    margin-left: 15px; 
+}
+.time-servings-container {
+    position: absolute;
+    height: 200px;
+    width: 225px;
+    top: 475px;
+    left: 100px;
+    border: 5px solid tan;
+    border-radius: 25px;
+    padding: 5px;
+}
+/*Ingredient Styling*/
+/*Title*/
+.food {
+    color: darkkhaki;
+    text-shadow: 3.22px 2.2px black;
+    font-family: Myanmar MN;
+    letter-spacing: 2px;
+    font-size: 68px;
+/*Position*/
+    position: absolute;
+    top: 33px;
+    left: 58%;
+}
+/*Ingredients Positioning Settings*/
+.ingredients-container-fixed {
+    height: 457px;
+    width: 225px;
+    border: 5px solid tan;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    top: 215px;
+    left: 27%;
+    padding: 5px;
+}
+.ingredients-container {
+    height: auto;
+    width: 225px;
+    border: 5px solid tan;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    top: 215px;
+    left: 27%;
+    padding: 5px;
+}
+.ingredients-title {    
+    font-family: copperplate;
+    font-size: 28px;
+}
+
+.Ingredients li {
+    list-style: none;
+    display: inline-block;
+    margin-left: -20px;
+    color: white;
+    line-height: 25px;
+  
+}
+
+/*Directions begin*/
+
+.directions-container {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    height: 457px;
+    border: 5px solid tan;
+    border-radius: 25px;
+    padding: 5px 15px;
+    line-height: 25px;
+    top: 215px;
+    left: 47%;
+    color: white;
+}
+.h2-bold {
+    font-family: copperplate;
+    font-size: 28px;
+    font-weight: bold;
 }
