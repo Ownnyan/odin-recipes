@@ -1,18 +1,12 @@
 body {
+    display: block;
     background-image:  url("../img/background.jpg");
     background-color: #df823f;
+    background-size: auto;
+    margin: auto;
 }
 
-.recipes {
-    background-image: url(../img/background2.jpg);
-    background-color: antiquewhite;
-}
 /* Index page Photo Gallery */
-
-.grid-layout {
-display: grid;
-row-gap: 25px;
-}
 
 .banana-bread {
     height: 350px;
